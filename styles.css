@@ -1,10 +1,11 @@
 :root {
-  --brand: #f37021;
-  --brand-dark: #e35d0c;
-  --bg: #f8f3eb;
-  --text: #1f1f1f;
-  --muted: #5c5c5c;
-  --accent: #0c7d54;
+  --brand: #f05a28;
+  --brand-dark: #c94d1f;
+  --bg: #fff4ec;
+  --text: #1a1a1a;
+  --muted: #4a4a4a;
+  --accent: #0b6e4f;
+  --alert: #b00020;
 }
 
 * {
@@ -109,7 +110,7 @@ a {
 
 .hero {
   background: var(--bg);
-  padding: 48px 0 36px;
+  padding: 52px 0 40px;
 }
 
 .hero__body {
@@ -119,20 +120,22 @@ a {
 }
 
 .hero__heading {
-  font-size: clamp(26px, 4vw, 36px);
+  font-size: clamp(26px, 4vw, 38px);
   font-weight: 900;
   line-height: 1.4;
   margin: 0 0 16px;
+  color: var(--alert);
 }
 
 .hero__label {
   display: inline-block;
-  background: var(--brand);
+  background: linear-gradient(120deg, var(--brand), #ff8a50);
   color: white;
   font-weight: 900;
-  padding: 8px 12px;
+  padding: 8px 14px;
   border-radius: 4px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0 6px 14px rgba(240, 90, 40, 0.2);
 }
 
 .hero__lead {
@@ -157,6 +160,7 @@ a {
   padding: 12px 18px;
   border-radius: 6px;
   font-weight: 800;
+  box-shadow: 0 8px 20px rgba(240, 90, 40, 0.25);
 }
 
 .stats {
@@ -173,6 +177,7 @@ a {
   grid-template-columns: auto 1fr;
   gap: 10px 16px;
   align-items: center;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.05);
 }
 
 .stat-card__badge {
@@ -268,7 +273,7 @@ a {
 }
 
 .cta-strip {
-  background: var(--brand);
+  background: linear-gradient(120deg, var(--brand), #ff8a50);
   color: white;
   padding: 22px 0;
 }

@@ -10,8 +10,8 @@ export const NavBar = () => `
           <div style="font-weight:700;">全国どこでも無料出張査定</div>
           <div style="font-size:12px;color:var(--muted);">9時〜18時（水曜定休）</div>
         </div>
-        <div class="phone">0120-984-086</div>
-        <a class="contact__cta" href="#contact">お問い合わせ</a>
+        <div class="phone">0000-000-000</div>
+        <a class="contact__cta" href="#contact">公式LINEで相談</a>
       </div>
     </div>
     <nav class="nav">
